@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript30 - Update CSS Variables with JS</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+  <section>
+    <fieldset class="fieldset">
+      <legend>Update CSS Variables with JS</legend>
+      <div id="spacing-wrapper" class="field spacing">
+        <label for="spacing">Spacing:</label>
+        <input type="range" value="0" min="0" max="100" step="1" id="spacing">
+      </div>
+      <div id="blur-wrapper" class="field blur">
+        <label for="blur">Blur:</label>
+        <input type="range" value="0" min="0" max="100" step="1" id="blur">
+      </div>
+      <div id="color-wrapper" class="field color">
+        <label for="color">Base Color:</label>
+        <input type="color" id="color">
+      </div>
+    </fieldset>
+    <div class="content">
+      <img src="./images/japan.jpeg" alt="Japan image">
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+
+</html>
